@@ -1,7 +1,3 @@
-Here’s a clean, professional-style **README.md** for your Arduino stepper motor controller project 👇
-
----
-
 # 🌀 Stepper Motor Serial Controller
 
 This Arduino sketch allows you to **control a 28BYJ-48 stepper motor** (via a ULN2003 driver board) using **simple serial commands**. You can rotate the motor by a specified number of degrees — both clockwise and counterclockwise — directly from the Arduino Serial Monitor.
@@ -138,4 +134,3 @@ Rotation complete. New absolute position: 45.00 degrees (relative to start).
 * Always **power the motor from a stable 5V source** (either from Arduino’s 5V pin or an external supply with shared ground).
 * If the motor vibrates instead of rotating, check the **wiring order** and **power source**.
 
----
